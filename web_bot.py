@@ -11,8 +11,8 @@ import pandas as pd
 import google.generativeai as genai
 
 
-GEMINI_API_KEY = "AIzaSyDWklWQY5xkY8hCz8D1iri-pJshnFzhAy4"   # https://aistudio.google.com/app/apikey
-FIELDS_FILE    = r"C:\Users\intern9\Timepolio_qt\노승종_개인\worldquant_fields.xlsx"        
+GEMINI_API_KEY = "Your Key"   # https://aistudio.google.com/app/apikey
+FIELDS_FILE    = os.path.join(os.path.dirname(__file__), "worldquant_fields.xlsx")
 
 
 
